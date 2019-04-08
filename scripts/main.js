@@ -2,10 +2,10 @@ var myImage = document.querySelector('img');
 
 myImage.onclick = function () {
     var mySrc = myImage.getAttribute('src');
-    if (mySrc === './img/discord.png') {
-        myImage.setAttribute('src', './img/discord0.png');
+    if (mySrc === './../img/discord.png') {
+        myImage.setAttribute('src', './../img/discord0.png');
     } else {
-        myImage.setAttribute('src', './img/discord.png');
+        myImage.setAttribute('src', './../img/discord.png');
     }
 }
 
